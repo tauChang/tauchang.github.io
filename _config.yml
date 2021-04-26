@@ -28,9 +28,23 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  tauChang
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+defaults:
+  -  
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "tauchang"
+      permalink: :categories/:title
+      usemathjax: true
+      
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

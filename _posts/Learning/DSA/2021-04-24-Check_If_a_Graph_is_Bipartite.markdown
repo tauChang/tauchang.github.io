@@ -1,17 +1,17 @@
 ---
-layout: post
 title:  "Check if a Graph is Bipartite"
-categories: Algorithm
+date:   2021-04-24 23:00:00 +0800
+categories: Learning DSA
 ---
-Reference: [cp-algorithms](https://cp-algorithms.com/graph/bipartite-check.html)
+Great thanks to [this post from cp-algorithms](https://cp-algorithms.com/graph/bipartite-check.html).
 
 First, the definition of a bipartite graph (from Wikipedia):
 
->In the mathematical field of graph theory, a **bipartite graph** (or **bigraph**) is a graph whose vertices can be divided into two disjoint and independent sets $U$ and $V$ such that every edge connects a vertex in $$ U $$ to one in $V$. Vertex sets $U$ and $V$ are usually called the **parts** of the graph. Equivalently, a bipartite graph is a graph that does not contain any odd-length cycles
+>In the mathematical field of graph theory, a **bipartite graph** (or **bigraph**) is a graph whose vertices can be divided into two disjoint and independent sets $$U$$ and $$V$$ such that every edge connects a vertex in $$ U $$ to one in $$V$$. Vertex sets $$U$$ and $$V$$ are usually called the **parts** of the graph. Equivalently, a bipartite graph is a graph that does not contain any odd-length cycles
 
 Note that a bipartite graph does not need to be connected. 
 
-To check whether a graph is bipartite, we use the fact that **a graph is bipartite iff it is 2-colorable**. The following implementation uses DFS to label each visited vertex as either $$ 0 $$ or $1$, representing the two parts of a bipartite graph. If a visited vertex is labeled $x$, its neighbor is labeled $x \oplus 1$. If we encounter a visited vertex during DFS, we check if the visited vertex is assigned to the other part. If not, then the graph is not bipartite.
+To check whether a graph is bipartite, we use the fact that **a graph is bipartite iff it is 2-colorable**. The following implementation uses DFS to label each visited vertex as either $$ 0 $$ or $$1$$, representing the two parts of a bipartite graph. If a visited vertex is labeled $$x$$, its neighbor is labeled $$x \oplus 1$$. If we encounter a visited vertex during DFS, we check if the visited vertex is assigned to the other part. If not, then the graph is not bipartite.
 
 
 {% highlight cpp %}
@@ -55,8 +55,6 @@ int main(){
     return 0;
 }
 {% endhighlight %}
-
-I'll fix the markdown in a few days. Sorry if it is hard to read.
 
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
