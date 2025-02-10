@@ -25,9 +25,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Tzu-Tao (Tommy) Chang"
   pronouns         : # example: "she/her"  
-  bio              : "3rd-Year CS Ph.D. Student @ UW-Madison"
+  bio              : "3rd-year CS Ph.D. Student @ UW-Madison"
   location         : "Madison, WI"
-  employer         : "University of Wisconsin-Madison"
+  employer         : "UW-Madison"
   uri              : # URL
   email            : "tomy.1516@gmail.com" 
 
@@ -54,7 +54,7 @@ author:
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
-  goodreads        : "https://www.goodreads.com/user/show/173221520-tommy-chang" # Username
+  goodreads        : "user/show/173221520-tommy-chang" # Username
   google_plus      : # Username
   keybase          : # Username
   instagram        : # Username
