@@ -19,12 +19,12 @@ Publications / Preprints
 ======
 - **LV-XAttn: Distributed Cross-Attention for Long Visual Inputs in Multimodal Large Language Models**  
   **Tzu-Tao Chang**, Shivaram Venkataraman  
-  arXiv preprint  
+  ICML 2025  
   \[[paper](https://arxiv.org/abs/2502.02406)\]
 - **Eva: Cost-Efficient Cloud-Based Cluster Scheduling**  
   **Tzu-Tao Chang**, Shivaram Venkataraman  
   EuroSys 2025
-  \[[paper](https://arxiv.org/abs/2503.07437)\]
+  \[[paper](https://dl.acm.org/doi/10.1145/3689031.3717483)\]
 - **System Verification and Runtime Monitoring with Multiple Weakly-Hard Constraints**  
   Yi-Ting Hsieh, **Tzu-Tao Chang**, Chen-Jun Tsai, Shih-Lun Wu, Ching-Yuan Bai, Kai-Chieh Chang, Chung-Wei Lin, Eunsuk Kang, Chao Huang, Qi Zhu  
   ACM Transactions on Cyber-Physical Systems  
