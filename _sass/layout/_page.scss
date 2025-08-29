@@ -25,6 +25,7 @@
 
   .page__inner-wrap {
     @include full();
+    margin-left: 2.5rem;
 
     .page__content,
     .page__meta,
