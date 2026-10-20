@@ -19,7 +19,8 @@ Publications
 ======
 - **TeDiServe: High SLO Attainment Serving for Diffusion Language Models**<br>
   **Tzu-Tao Chang**, Benjamin Yuanyang Hong, Kiet Pham, Shivaram Venkataraman<br>
-  EuroSys 2027 (To appear)
+  EuroSys 2027 (To appear)<br>
+  \[[paper](https://arxiv.org/abs/2606.29094)\]
 
 - **LV-XAttn: Distributed Cross-Attention for Long Visual Inputs in Multimodal Large Language Models**<br>
   **Tzu-Tao Chang**, Shivaram Venkataraman<br>
