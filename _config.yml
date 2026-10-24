@@ -30,6 +30,7 @@ author:
   employer         : "UW-Madison"
   uri              : # URL
   email            : "tomy.1516@gmail.com"
+  cv               : "cv_2026-10-24.pdf" # filename in /files; update when you add a new CV
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
